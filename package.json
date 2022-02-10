@@ -1,0 +1,35 @@
+{
+  "name": "ms_auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.49.0",
+    "@middy/core": "^2.5.7",
+    "@middy/http-cors": "^2.5.7",
+    "@middy/http-json-body-parser": "^2.5.7",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1069.0",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.15.0",
+    "serverless-offline": "^8.4.0",
+    "serverless-offline-sns": "^0.76.0",
+    "ts-loader": "^9.2.6",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92",
+    "@types/jsonwebtoken": "^8.5.8",
+    "serverless-offline-local-authorizers-plugin": "^1.0.3",
+    "serverless-webpack": "^5.6.1"
+  }
+}
